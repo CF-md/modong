@@ -36,6 +36,7 @@ public class LoginController {
             cookie.setDomain("sso.com");
             // 把cookie写到客户端
             response.addCookie(cookie);
+            //模拟将用户信息存入Redis
             LoginCacheUtil.loginUser.put(token, user);
         }else {
             session.setAttribute("msg", "用户名或密码错误");
