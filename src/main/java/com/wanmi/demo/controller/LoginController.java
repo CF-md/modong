@@ -27,12 +27,12 @@ public class LoginController {
     @PostMapping("/login")
     public String doLogin(User user, HttpSession session, HttpServletResponse response) {
         // 校验用户名密码
-        if(user.getUName().equals("xiao")&&user.getUPwd().equals("123")) {
+        if("cao".equals(user.getUName()) && "123".equals(user.getUPwd())) {
             // 保存用户登录信息
             String token = UUID.randomUUID().toString();
             System.out.println("login.token===" + token);
             Cookie cookie = new Cookie("TOKEN", token);
-            //设置域名，实现数据共享
+            //设置域名，实现数据跨域共享
             cookie.setDomain("sso.com");
             // 把cookie写到客户端
             response.addCookie(cookie);
