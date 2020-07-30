@@ -1,6 +1,6 @@
-package com.wanmi.demo.util;
+package com.wanmi.demo.sso1.util;
 
-import com.wanmi.demo.entity.User;
+import com.wanmi.demo.sso1.pojo.User;
 
 import java.util.HashMap;
 import java.util.Map;

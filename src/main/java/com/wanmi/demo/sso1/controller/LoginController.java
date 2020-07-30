@@ -1,7 +1,7 @@
-package com.wanmi.demo.controller;
+package com.wanmi.demo.sso1.controller;
 
-import com.wanmi.demo.util.LoginCacheUtil;
-import com.wanmi.demo.entity.User;
+import com.wanmi.demo.sso1.util.LoginCacheUtil;
+import com.wanmi.demo.sso1.pojo.User;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

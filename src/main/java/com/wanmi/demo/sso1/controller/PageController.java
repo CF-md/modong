@@ -1,7 +1,7 @@
-package com.wanmi.demo.controller;
+package com.wanmi.demo.sso1.controller;
 
-import com.wanmi.demo.util.LoginCacheUtil;
-import com.wanmi.demo.entity.User;
+import com.wanmi.demo.sso1.util.LoginCacheUtil;
+import com.wanmi.demo.sso1.pojo.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.RequestMapping;

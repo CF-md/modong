@@ -1,4 +1,4 @@
-package com.wanmi.demo.entity;
+package com.wanmi.demo.sso1.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
